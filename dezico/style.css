@@ -409,7 +409,7 @@ cursor:pointer;
 .image_list .opt .like_on{color:#ff7568;}
 .image_list .opt .down_on{color:#3ab9f0;}
 .image_list .opt .down,
-.image_list .opt .down_on{margin-right:15px;float:right;}
+.image_list .opt .down_on{margin-right:15px;float:right; color: #aaa}
 
 .icon_like,.icon_down,.icon_sort,.icon_fav,.icon_cart{float:left;width:20px;height:20px;margin:15px 10px 0 15px;background:url(img/sp_dezico.png?t=3) no-repeat}
 .icon_like{background-position:-130px -310px;}
@@ -541,7 +541,8 @@ cursor:pointer;
 	font-size:20px;color:#aaa;
 }
 /*.product_list .opt span{float:left;}*/
-.product_list .opt .fav_on{color:#ff7568;float:left;}
+.product_item .opt .fav_on{color:#ff7568;float:left;}
+/*.product_list .opt .fav_on*/
 .product_list .opt .cart_on{color:#3ab9f0;float:left;}
 .product_list .opt .cart,
 .product_list .opt .cart_on{margin-right:15px;float:right; color: #aaa}
